@@ -5,16 +5,14 @@
 *.slo
 *.lo
 *.o
-*.obj
+*.iobj
 
 # Precompiled Headers
 *.gch
 *.pch
 
 # Compiled Dynamic libraries
-*.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -23,10 +21,28 @@
 # Compiled Static libraries
 *.lai
 *.la
-*.a
-*.lib
 
 # Executables
 *.exe
 *.out
 *.app
+*.ipdb
+*.pdb
+*.log
+*.tlog
+*.opendb
+*.cache
+*.kzproj_*
+*.autosave
+*.exp
+*.ilk
+*VC.db
+*/output
+*/output/*
+*.db
+*.suo
+compressed
+cubemaps
+mipmaps
+thumbnails
+Binary
