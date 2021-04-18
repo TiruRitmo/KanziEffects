@@ -45,7 +45,7 @@
           i:type="d5p1:HSLAColor">
           <d5p1:alpha>0</d5p1:alpha>
           <d5p1:hue>0</d5p1:hue>
-          <d5p1:luminance>0</d5p1:luminance>
+          <d5p1:luminance>0.391304344</d5p1:luminance>
           <d5p1:saturation>0</d5p1:saturation>
         </value>
       </d2p1:Value>
@@ -543,8 +543,9 @@
           i:type="d5p1:ProjectItemReference">
           <d5p1:ContentType>ABSOLUTE</d5p1:ContentType>
           <d5p1:IsResourceReference>false</d5p1:IsResourceReference>
-          <d5p1:referredItemPath
-            i:nil="true" />
+          <d5p1:referredItemPath>
+            <d5p1:pathString>KanziEffects/Materials/CuteBendMaterial/</d5p1:pathString>
+          </d5p1:referredItemPath>
           <d5p1:textContent
             i:nil="true" />
         </value>
@@ -654,7 +655,7 @@
           i:nil="true" />
         <propertyTypeReference>TargetGraphicsApi</propertyTypeReference>
         <value xmlns:d5p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
-          i:type="d5p1:TargetGraphicsApi">ES20</value>
+          i:type="d5p1:TargetGraphicsApi">ES30</value>
       </d2p1:Value>
     </d2p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
     <d2p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
@@ -1575,9 +1576,8 @@
                       i:type="d11p1:ProjectItemReference">
                       <d11p1:ContentType>ABSOLUTE</d11p1:ContentType>
                       <d11p1:IsResourceReference>false</d11p1:IsResourceReference>
-                      <d11p1:referredItemPath>
-                        <d11p1:pathString>KanziEffects/Brushes/DefaultBackground/</d11p1:pathString>
-                      </d11p1:referredItemPath>
+                      <d11p1:referredItemPath
+                        i:nil="true" />
                       <d11p1:textContent
                         i:nil="true" />
                     </value>
@@ -1622,37 +1622,26 @@
               <SerializedName>RootPage</SerializedName>
               <children>
                 <ProjectItem
-                  i:type="d7p1:ViewportLayer">
+                  i:type="d7p1:LayerPrefabPlaceholder">
                   <properties xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties">
                     <d10p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                      <d10p1:Key>ViewportLayerScene</d10p1:Key>
+                      <d10p1:Key>Node2DPrefabPlaceholderTemplate</d10p1:Key>
                       <d10p1:Value>
                         <isHidden
                           i:nil="true" />
                         <isReadOnly
                           i:nil="true" />
-                        <propertyTypeReference>ViewportLayerScene</propertyTypeReference>
+                        <propertyTypeReference>Node2DPrefabPlaceholderTemplate</propertyTypeReference>
                         <value xmlns:d13p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
                           i:type="d13p1:ProjectItemReference">
                           <d13p1:ContentType>ABSOLUTE</d13p1:ContentType>
                           <d13p1:IsResourceReference>false</d13p1:IsResourceReference>
-                          <d13p1:referredItemPath
-                            i:nil="true" />
+                          <d13p1:referredItemPath>
+                            <d13p1:pathString>KanziEffects/Prefabs/CuteBend/</d13p1:pathString>
+                          </d13p1:referredItemPath>
                           <d13p1:textContent
                             i:nil="true" />
                         </value>
-                      </d10p1:Value>
-                    </d10p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                    <d10p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                      <d10p1:Key>Node2D.ForegroundHint</d10p1:Key>
-                      <d10p1:Value>
-                        <isHidden
-                          i:nil="true" />
-                        <isReadOnly
-                          i:nil="true" />
-                        <propertyTypeReference>Node2D.ForegroundHint</propertyTypeReference>
-                        <value xmlns:d13p1="http://www.w3.org/2001/XMLSchema"
-                          i:type="d13p1:int">1</value>
                       </d10p1:Value>
                     </d10p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
                     <d10p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
@@ -1698,7 +1687,7 @@
                           i:nil="true" />
                         <propertyTypeReference>Name</propertyTypeReference>
                         <value xmlns:d13p1="http://www.w3.org/2001/XMLSchema"
-                          i:type="d13p1:string">Viewport 2D</value>
+                          i:type="d13p1:string">Empty Node 2D</value>
                       </d10p1:Value>
                     </d10p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
                     <d10p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
@@ -1710,635 +1699,12 @@
                           i:nil="true" />
                         <propertyTypeReference>CreationTime</propertyTypeReference>
                         <value xmlns:d13p1="http://www.w3.org/2001/XMLSchema"
-                          i:type="d13p1:dateTime">2021-04-18T06:11:57.2783424Z</value>
+                          i:type="d13p1:dateTime">2021-04-18T08:47:13.4068767Z</value>
                       </d10p1:Value>
                     </d10p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
                   </properties>
-                  <SerializedName>Viewport 2D</SerializedName>
-                  <children>
-                    <ProjectItem xmlns:d11p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project.SceneGraphItems"
-                      i:type="d11p1:Scene">
-                      <properties xmlns:d12p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties">
-                        <d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                          <d12p1:Key>Scene.HitTestCamera</d12p1:Key>
-                          <d12p1:Value>
-                            <isHidden
-                              i:nil="true" />
-                            <isReadOnly
-                              i:nil="true" />
-                            <propertyTypeReference>Scene.HitTestCamera</propertyTypeReference>
-                            <value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
-                              i:type="d15p1:ProjectItemReference">
-                              <d15p1:ContentType>ABSOLUTE</d15p1:ContentType>
-                              <d15p1:IsResourceReference>false</d15p1:IsResourceReference>
-                              <d15p1:referredItemPath
-                                i:nil="true" />
-                              <d15p1:textContent
-                                i:nil="true" />
-                            </value>
-                          </d12p1:Value>
-                        </d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                        <d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                          <d12p1:Key>Scene.Camera</d12p1:Key>
-                          <d12p1:Value>
-                            <isHidden
-                              i:nil="true" />
-                            <isReadOnly
-                              i:nil="true" />
-                            <propertyTypeReference>Scene.Camera</propertyTypeReference>
-                            <value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
-                              i:type="d15p1:ProjectItemReference">
-                              <d15p1:ContentType>ABSOLUTE</d15p1:ContentType>
-                              <d15p1:IsResourceReference>false</d15p1:IsResourceReference>
-                              <d15p1:referredItemPath>
-                                <d15p1:pathString>KanziEffects/Screens/Screen/RootPage/Viewport 2D/Scene/Camera/</d15p1:pathString>
-                              </d15p1:referredItemPath>
-                              <d15p1:textContent
-                                i:nil="true" />
-                            </value>
-                          </d12p1:Value>
-                        </d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                        <d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                          <d12p1:Key>Scene.RenderPass</d12p1:Key>
-                          <d12p1:Value>
-                            <isHidden
-                              i:nil="true" />
-                            <isReadOnly
-                              i:nil="true" />
-                            <propertyTypeReference>Scene.RenderPass</propertyTypeReference>
-                            <value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
-                              i:type="d15p1:ProjectItemReference">
-                              <d15p1:ContentType>RESOURCE_REFERENCE</d15p1:ContentType>
-                              <d15p1:IsResourceReference>false</d15p1:IsResourceReference>
-                              <d15p1:referredItemPath>
-                                <d15p1:pathString>relative://DefaultRenderPass</d15p1:pathString>
-                              </d15p1:referredItemPath>
-                              <d15p1:textContent
-                                i:nil="true" />
-                            </value>
-                          </d12p1:Value>
-                        </d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                        <d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                          <d12p1:Key>SceneBackgroundTimelineSequence</d12p1:Key>
-                          <d12p1:Value>
-                            <isHidden
-                              i:nil="true" />
-                            <isReadOnly
-                              i:nil="true" />
-                            <propertyTypeReference>SceneBackgroundTimelineSequence</propertyTypeReference>
-                            <value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
-                              i:type="d15p1:ProjectItemReference">
-                              <d15p1:ContentType>ABSOLUTE</d15p1:ContentType>
-                              <d15p1:IsResourceReference>false</d15p1:IsResourceReference>
-                              <d15p1:referredItemPath
-                                i:nil="true" />
-                              <d15p1:textContent
-                                i:nil="true" />
-                            </value>
-                          </d12p1:Value>
-                        </d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                        <d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                          <d12p1:Key>SceneComposerOverride</d12p1:Key>
-                          <d12p1:Value>
-                            <isHidden
-                              i:nil="true" />
-                            <isReadOnly
-                              i:nil="true" />
-                            <propertyTypeReference>SceneComposerOverride</propertyTypeReference>
-                            <value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
-                              i:type="d15p1:ProjectItemReference">
-                              <d15p1:ContentType>ABSOLUTE</d15p1:ContentType>
-                              <d15p1:IsResourceReference>false</d15p1:IsResourceReference>
-                              <d15p1:referredItemPath
-                                i:nil="true" />
-                              <d15p1:textContent
-                                i:nil="true" />
-                            </value>
-                          </d12p1:Value>
-                        </d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                        <d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                          <d12p1:Key>SceneEnvironmentTexture</d12p1:Key>
-                          <d12p1:Value>
-                            <isHidden
-                              i:nil="true" />
-                            <isReadOnly
-                              i:nil="true" />
-                            <propertyTypeReference>SceneEnvironmentTexture</propertyTypeReference>
-                            <value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
-                              i:type="d15p1:ProjectItemReference">
-                              <d15p1:ContentType>ABSOLUTE</d15p1:ContentType>
-                              <d15p1:IsResourceReference>false</d15p1:IsResourceReference>
-                              <d15p1:referredItemPath
-                                i:nil="true" />
-                              <d15p1:textContent
-                                i:nil="true" />
-                            </value>
-                          </d12p1:Value>
-                        </d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                        <d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                          <d12p1:Key>ScenePreviewCamera</d12p1:Key>
-                          <d12p1:Value>
-                            <isHidden
-                              i:nil="true" />
-                            <isReadOnly
-                              i:nil="true" />
-                            <propertyTypeReference>ScenePreviewCamera</propertyTypeReference>
-                            <value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
-                              i:type="d15p1:ProjectItemReference">
-                              <d15p1:ContentType>ABSOLUTE</d15p1:ContentType>
-                              <d15p1:IsResourceReference>false</d15p1:IsResourceReference>
-                              <d15p1:referredItemPath
-                                i:nil="true" />
-                              <d15p1:textContent
-                                i:nil="true" />
-                            </value>
-                          </d12p1:Value>
-                        </d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                        <d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                          <d12p1:Key>GlobalAmbient</d12p1:Key>
-                          <d12p1:Value>
-                            <isHidden
-                              i:nil="true" />
-                            <isReadOnly
-                              i:nil="true" />
-                            <propertyTypeReference>GlobalAmbient</propertyTypeReference>
-                            <value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base.DataTypes"
-                              i:type="d15p1:HSLAColor">
-                              <d15p1:alpha>1</d15p1:alpha>
-                              <d15p1:hue>0</d15p1:hue>
-                              <d15p1:luminance>1</d15p1:luminance>
-                              <d15p1:saturation>0</d15p1:saturation>
-                            </value>
-                          </d12p1:Value>
-                        </d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                        <d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                          <d12p1:Key>Tags</d12p1:Key>
-                          <d12p1:Value>
-                            <isHidden
-                              i:nil="true" />
-                            <isReadOnly
-                              i:nil="true" />
-                            <propertyTypeReference>Tags</propertyTypeReference>
-                            <value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
-                              i:type="d15p1:ArrayOfProjectItemReference" />
-                          </d12p1:Value>
-                        </d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                        <d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                          <d12p1:Key>ImportedFrom</d12p1:Key>
-                          <d12p1:Value>
-                            <isHidden
-                              i:nil="true" />
-                            <isReadOnly
-                              i:nil="true" />
-                            <propertyTypeReference>ImportedFrom</propertyTypeReference>
-                            <value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
-                              i:type="d15p1:ProjectItemReference">
-                              <d15p1:ContentType>ABSOLUTE</d15p1:ContentType>
-                              <d15p1:IsResourceReference>false</d15p1:IsResourceReference>
-                              <d15p1:referredItemPath
-                                i:nil="true" />
-                              <d15p1:textContent
-                                i:nil="true" />
-                            </value>
-                          </d12p1:Value>
-                        </d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                        <d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                          <d12p1:Key>IDInImportSource</d12p1:Key>
-                          <d12p1:Value>
-                            <isHidden
-                              i:nil="true" />
-                            <isReadOnly
-                              i:nil="true" />
-                            <propertyTypeReference>IDInImportSource</propertyTypeReference>
-                            <value
-                              i:nil="true" />
-                          </d12p1:Value>
-                        </d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                        <d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                          <d12p1:Key>OriginalNameInImportSource</d12p1:Key>
-                          <d12p1:Value>
-                            <isHidden
-                              i:nil="true" />
-                            <isReadOnly
-                              i:nil="true" />
-                            <propertyTypeReference>OriginalNameInImportSource</propertyTypeReference>
-                            <value
-                              i:nil="true" />
-                          </d12p1:Value>
-                        </d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                        <d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                          <d12p1:Key>EffectiveDataContext</d12p1:Key>
-                          <d12p1:Value>
-                            <isHidden
-                              i:nil="true" />
-                            <isReadOnly
-                              i:nil="true" />
-                            <propertyTypeReference>EffectiveDataContext</propertyTypeReference>
-                            <value xmlns:d15p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project.DataSourceItems"
-                              i:type="d15p1:DataContext">
-                              <d15p1:dataObjectPath></d15p1:dataObjectPath>
-                              <d15p1:dataSourceReference xmlns:d16p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project">
-                                <d16p1:ContentType>ABSOLUTE</d16p1:ContentType>
-                                <d16p1:IsResourceReference>false</d16p1:IsResourceReference>
-                                <d16p1:referredItemPath
-                                  i:nil="true" />
-                                <d16p1:textContent
-                                  i:nil="true" />
-                              </d15p1:dataSourceReference>
-                            </value>
-                          </d12p1:Value>
-                        </d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                        <d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                          <d12p1:Key>Name</d12p1:Key>
-                          <d12p1:Value>
-                            <isHidden
-                              i:nil="true" />
-                            <isReadOnly
-                              i:nil="true" />
-                            <propertyTypeReference>Name</propertyTypeReference>
-                            <value xmlns:d15p1="http://www.w3.org/2001/XMLSchema"
-                              i:type="d15p1:string">Scene</value>
-                          </d12p1:Value>
-                        </d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                        <d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                          <d12p1:Key>CreationTime</d12p1:Key>
-                          <d12p1:Value>
-                            <isHidden
-                              i:nil="true" />
-                            <isReadOnly
-                              i:nil="true" />
-                            <propertyTypeReference>CreationTime</propertyTypeReference>
-                            <value xmlns:d15p1="http://www.w3.org/2001/XMLSchema"
-                              i:type="d15p1:dateTime">2021-04-18T06:11:57.2793386Z</value>
-                          </d12p1:Value>
-                        </d12p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                      </properties>
-                      <SerializedName>Scene</SerializedName>
-                      <children>
-                        <ProjectItem
-                          i:type="d11p1:CameraNode">
-                          <properties xmlns:d14p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties">
-                            <d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                              <d14p1:Key>Node3D.LayoutTransformation</d14p1:Key>
-                              <d14p1:Value>
-                                <isHidden
-                                  i:nil="true" />
-                                <isReadOnly
-                                  i:nil="true" />
-                                <propertyTypeReference>Node3D.LayoutTransformation</propertyTypeReference>
-                                <value xmlns:d17p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base.DataTypes"
-                                  i:type="d17p1:SRTTransformation">
-                                  <d17p1:isScaleUniform>true</d17p1:isScaleUniform>
-                                  <d17p1:rotation xmlns:d18p1="http://schemas.datacontract.org/2004/07/System.Windows.Media.Media3D">
-                                    <d18p1:_x>-15</d18p1:_x>
-                                    <d18p1:_y>0</d18p1:_y>
-                                    <d18p1:_z>0</d18p1:_z>
-                                  </d17p1:rotation>
-                                  <d17p1:scale xmlns:d18p1="http://schemas.datacontract.org/2004/07/System.Windows.Media.Media3D">
-                                    <d18p1:_x>1</d18p1:_x>
-                                    <d18p1:_y>1</d18p1:_y>
-                                    <d18p1:_z>1</d18p1:_z>
-                                  </d17p1:scale>
-                                  <d17p1:translation xmlns:d18p1="http://schemas.datacontract.org/2004/07/System.Windows.Media.Media3D">
-                                    <d18p1:_x>0</d18p1:_x>
-                                    <d18p1:_y>4.6999998092651367</d18p1:_y>
-                                    <d18p1:_z>15</d18p1:_z>
-                                  </d17p1:translation>
-                                </value>
-                              </d14p1:Value>
-                            </d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                            <d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                              <d14p1:Key>Tags</d14p1:Key>
-                              <d14p1:Value>
-                                <isHidden
-                                  i:nil="true" />
-                                <isReadOnly
-                                  i:nil="true" />
-                                <propertyTypeReference>Tags</propertyTypeReference>
-                                <value xmlns:d17p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
-                                  i:type="d17p1:ArrayOfProjectItemReference" />
-                              </d14p1:Value>
-                            </d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                            <d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                              <d14p1:Key>ImportedFrom</d14p1:Key>
-                              <d14p1:Value>
-                                <isHidden
-                                  i:nil="true" />
-                                <isReadOnly
-                                  i:nil="true" />
-                                <propertyTypeReference>ImportedFrom</propertyTypeReference>
-                                <value xmlns:d17p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
-                                  i:type="d17p1:ProjectItemReference">
-                                  <d17p1:ContentType>ABSOLUTE</d17p1:ContentType>
-                                  <d17p1:IsResourceReference>false</d17p1:IsResourceReference>
-                                  <d17p1:referredItemPath
-                                    i:nil="true" />
-                                  <d17p1:textContent
-                                    i:nil="true" />
-                                </value>
-                              </d14p1:Value>
-                            </d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                            <d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                              <d14p1:Key>IDInImportSource</d14p1:Key>
-                              <d14p1:Value>
-                                <isHidden
-                                  i:nil="true" />
-                                <isReadOnly
-                                  i:nil="true" />
-                                <propertyTypeReference>IDInImportSource</propertyTypeReference>
-                                <value
-                                  i:nil="true" />
-                              </d14p1:Value>
-                            </d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                            <d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                              <d14p1:Key>OriginalNameInImportSource</d14p1:Key>
-                              <d14p1:Value>
-                                <isHidden
-                                  i:nil="true" />
-                                <isReadOnly
-                                  i:nil="true" />
-                                <propertyTypeReference>OriginalNameInImportSource</propertyTypeReference>
-                                <value
-                                  i:nil="true" />
-                              </d14p1:Value>
-                            </d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                            <d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                              <d14p1:Key>EffectiveDataContext</d14p1:Key>
-                              <d14p1:Value>
-                                <isHidden
-                                  i:nil="true" />
-                                <isReadOnly
-                                  i:nil="true" />
-                                <propertyTypeReference>EffectiveDataContext</propertyTypeReference>
-                                <value xmlns:d17p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project.DataSourceItems"
-                                  i:type="d17p1:DataContext">
-                                  <d17p1:dataObjectPath></d17p1:dataObjectPath>
-                                  <d17p1:dataSourceReference xmlns:d18p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project">
-                                    <d18p1:ContentType>ABSOLUTE</d18p1:ContentType>
-                                    <d18p1:IsResourceReference>false</d18p1:IsResourceReference>
-                                    <d18p1:referredItemPath
-                                      i:nil="true" />
-                                    <d18p1:textContent
-                                      i:nil="true" />
-                                  </d17p1:dataSourceReference>
-                                </value>
-                              </d14p1:Value>
-                            </d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                            <d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                              <d14p1:Key>Name</d14p1:Key>
-                              <d14p1:Value>
-                                <isHidden
-                                  i:nil="true" />
-                                <isReadOnly
-                                  i:nil="true" />
-                                <propertyTypeReference>Name</propertyTypeReference>
-                                <value xmlns:d17p1="http://www.w3.org/2001/XMLSchema"
-                                  i:type="d17p1:string">Camera</value>
-                              </d14p1:Value>
-                            </d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                            <d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                              <d14p1:Key>CreationTime</d14p1:Key>
-                              <d14p1:Value>
-                                <isHidden
-                                  i:nil="true" />
-                                <isReadOnly
-                                  i:nil="true" />
-                                <propertyTypeReference>CreationTime</propertyTypeReference>
-                                <value xmlns:d17p1="http://www.w3.org/2001/XMLSchema"
-                                  i:type="d17p1:dateTime">2021-04-18T06:11:57.2803372Z</value>
-                              </d14p1:Value>
-                            </d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                          </properties>
-                          <SerializedName>Camera</SerializedName>
-                          <children />
-                          <dataSource
-                            i:nil="true" />
-                          <isHidden>false</isHidden>
-                          <isReadOnly>false</isReadOnly>
-                          <d11p1:isPrivate>false</d11p1:isPrivate>
-                        </ProjectItem>
-                        <ProjectItem
-                          i:type="d11p1:LightNode">
-                          <properties xmlns:d14p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties">
-                            <d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                              <d14p1:Key>LightType</d14p1:Key>
-                              <d14p1:Value>
-                                <isHidden
-                                  i:nil="true" />
-                                <isReadOnly
-                                  i:nil="true" />
-                                <propertyTypeReference>LightType</propertyTypeReference>
-                                <value xmlns:d17p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties.PropertyType"
-                                  i:type="d17p1:PropertyTypeReference">
-                                  <d17p1:isExpression>false</d17p1:isExpression>
-                                  <d17p1:propertyTypeName>DirectionalLight</d17p1:propertyTypeName>
-                                </value>
-                              </d14p1:Value>
-                            </d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                            <d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                              <d14p1:Key>Tags</d14p1:Key>
-                              <d14p1:Value>
-                                <isHidden
-                                  i:nil="true" />
-                                <isReadOnly
-                                  i:nil="true" />
-                                <propertyTypeReference>Tags</propertyTypeReference>
-                                <value xmlns:d17p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
-                                  i:type="d17p1:ArrayOfProjectItemReference" />
-                              </d14p1:Value>
-                            </d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                            <d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                              <d14p1:Key>ImportedFrom</d14p1:Key>
-                              <d14p1:Value>
-                                <isHidden
-                                  i:nil="true" />
-                                <isReadOnly
-                                  i:nil="true" />
-                                <propertyTypeReference>ImportedFrom</propertyTypeReference>
-                                <value xmlns:d17p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
-                                  i:type="d17p1:ProjectItemReference">
-                                  <d17p1:ContentType>ABSOLUTE</d17p1:ContentType>
-                                  <d17p1:IsResourceReference>false</d17p1:IsResourceReference>
-                                  <d17p1:referredItemPath
-                                    i:nil="true" />
-                                  <d17p1:textContent
-                                    i:nil="true" />
-                                </value>
-                              </d14p1:Value>
-                            </d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                            <d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                              <d14p1:Key>IDInImportSource</d14p1:Key>
-                              <d14p1:Value>
-                                <isHidden
-                                  i:nil="true" />
-                                <isReadOnly
-                                  i:nil="true" />
-                                <propertyTypeReference>IDInImportSource</propertyTypeReference>
-                                <value
-                                  i:nil="true" />
-                              </d14p1:Value>
-                            </d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                            <d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                              <d14p1:Key>OriginalNameInImportSource</d14p1:Key>
-                              <d14p1:Value>
-                                <isHidden
-                                  i:nil="true" />
-                                <isReadOnly
-                                  i:nil="true" />
-                                <propertyTypeReference>OriginalNameInImportSource</propertyTypeReference>
-                                <value
-                                  i:nil="true" />
-                              </d14p1:Value>
-                            </d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                            <d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                              <d14p1:Key>EffectiveDataContext</d14p1:Key>
-                              <d14p1:Value>
-                                <isHidden
-                                  i:nil="true" />
-                                <isReadOnly
-                                  i:nil="true" />
-                                <propertyTypeReference>EffectiveDataContext</propertyTypeReference>
-                                <value xmlns:d17p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project.DataSourceItems"
-                                  i:type="d17p1:DataContext">
-                                  <d17p1:dataObjectPath></d17p1:dataObjectPath>
-                                  <d17p1:dataSourceReference xmlns:d18p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project">
-                                    <d18p1:ContentType>ABSOLUTE</d18p1:ContentType>
-                                    <d18p1:IsResourceReference>false</d18p1:IsResourceReference>
-                                    <d18p1:referredItemPath
-                                      i:nil="true" />
-                                    <d18p1:textContent
-                                      i:nil="true" />
-                                  </d17p1:dataSourceReference>
-                                </value>
-                              </d14p1:Value>
-                            </d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                            <d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                              <d14p1:Key>Name</d14p1:Key>
-                              <d14p1:Value>
-                                <isHidden
-                                  i:nil="true" />
-                                <isReadOnly
-                                  i:nil="true" />
-                                <propertyTypeReference>Name</propertyTypeReference>
-                                <value xmlns:d17p1="http://www.w3.org/2001/XMLSchema"
-                                  i:type="d17p1:string">Directional Light</value>
-                              </d14p1:Value>
-                            </d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                            <d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                              <d14p1:Key>CreationTime</d14p1:Key>
-                              <d14p1:Value>
-                                <isHidden
-                                  i:nil="true" />
-                                <isReadOnly
-                                  i:nil="true" />
-                                <propertyTypeReference>CreationTime</propertyTypeReference>
-                                <value xmlns:d17p1="http://www.w3.org/2001/XMLSchema"
-                                  i:type="d17p1:dateTime">2021-04-18T06:11:57.2833284Z</value>
-                              </d14p1:Value>
-                            </d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                            <d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                              <d14p1:Key>LightEnabled</d14p1:Key>
-                              <d14p1:Value>
-                                <isHidden
-                                  i:nil="true" />
-                                <isReadOnly
-                                  i:nil="true" />
-                                <propertyTypeReference>LightEnabled</propertyTypeReference>
-                                <value xmlns:d17p1="http://www.w3.org/2001/XMLSchema"
-                                  i:type="d17p1:boolean">true</value>
-                              </d14p1:Value>
-                            </d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                            <d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                              <d14p1:Key>DirectionalLightColor</d14p1:Key>
-                              <d14p1:Value>
-                                <isHidden
-                                  i:nil="true" />
-                                <isReadOnly
-                                  i:nil="true" />
-                                <propertyTypeReference>DirectionalLightColor</propertyTypeReference>
-                                <value xmlns:d17p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base.DataTypes"
-                                  i:type="d17p1:HSLAColor">
-                                  <d17p1:alpha>1</d17p1:alpha>
-                                  <d17p1:hue>0</d17p1:hue>
-                                  <d17p1:luminance>0.494117647</d17p1:luminance>
-                                  <d17p1:saturation>0</d17p1:saturation>
-                                </value>
-                              </d14p1:Value>
-                            </d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                            <d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                              <d14p1:Key>LightColorScale</d14p1:Key>
-                              <d14p1:Value>
-                                <isHidden
-                                  i:nil="true" />
-                                <isReadOnly
-                                  i:nil="true" />
-                                <propertyTypeReference>LightColorScale</propertyTypeReference>
-                                <value xmlns:d17p1="http://www.w3.org/2001/XMLSchema"
-                                  i:type="d17p1:float">1</value>
-                              </d14p1:Value>
-                            </d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                            <d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                              <d14p1:Key>DirectionalLightDirection</d14p1:Key>
-                              <d14p1:Value>
-                                <isHidden
-                                  i:nil="true" />
-                                <isReadOnly
-                                  i:nil="true" />
-                                <propertyTypeReference>DirectionalLightDirection</propertyTypeReference>
-                                <value xmlns:d17p1="http://schemas.datacontract.org/2004/07/System.Windows.Media.Media3D"
-                                  i:type="d17p1:Vector3D">
-                                  <d17p1:_x>0</d17p1:_x>
-                                  <d17p1:_y>0</d17p1:_y>
-                                  <d17p1:_z>0</d17p1:_z>
-                                </value>
-                              </d14p1:Value>
-                            </d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                            <d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                              <d14p1:Key>Node3D.LayoutTransformation</d14p1:Key>
-                              <d14p1:Value>
-                                <isHidden
-                                  i:nil="true" />
-                                <isReadOnly
-                                  i:nil="true" />
-                                <propertyTypeReference>Node3D.LayoutTransformation</propertyTypeReference>
-                                <value xmlns:d17p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base.DataTypes"
-                                  i:type="d17p1:SRTTransformation">
-                                  <d17p1:isScaleUniform>true</d17p1:isScaleUniform>
-                                  <d17p1:rotation xmlns:d18p1="http://schemas.datacontract.org/2004/07/System.Windows.Media.Media3D">
-                                    <d18p1:_x>-60</d18p1:_x>
-                                    <d18p1:_y>60</d18p1:_y>
-                                    <d18p1:_z>0</d18p1:_z>
-                                  </d17p1:rotation>
-                                  <d17p1:scale xmlns:d18p1="http://schemas.datacontract.org/2004/07/System.Windows.Media.Media3D">
-                                    <d18p1:_x>1</d18p1:_x>
-                                    <d18p1:_y>1</d18p1:_y>
-                                    <d18p1:_z>1</d18p1:_z>
-                                  </d17p1:scale>
-                                  <d17p1:translation xmlns:d18p1="http://schemas.datacontract.org/2004/07/System.Windows.Media.Media3D">
-                                    <d18p1:_x>10</d18p1:_x>
-                                    <d18p1:_y>4</d18p1:_y>
-                                    <d18p1:_z>-2</d18p1:_z>
-                                  </d17p1:translation>
-                                </value>
-                              </d14p1:Value>
-                            </d14p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
-                          </properties>
-                          <SerializedName>Directional Light</SerializedName>
-                          <children />
-                          <dataSource
-                            i:nil="true" />
-                          <isHidden>false</isHidden>
-                          <isReadOnly>false</isReadOnly>
-                          <d11p1:isPrivate>false</d11p1:isPrivate>
-                        </ProjectItem>
-                      </children>
-                      <dataSource
-                        i:nil="true" />
-                      <isHidden>false</isHidden>
-                      <isReadOnly>false</isReadOnly>
-                      <d11p1:isPrivate>false</d11p1:isPrivate>
-                    </ProjectItem>
-                  </children>
+                  <SerializedName>Empty Node 2D</SerializedName>
+                  <children />
                   <dataSource
                     i:nil="true" />
                   <isHidden>false</isHidden>
@@ -2392,7 +1758,313 @@
         </d4p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
       </properties>
       <SerializedName>Material Types</SerializedName>
-      <children />
+      <children>
+        <ProjectItem
+          i:type="d3p1:MasterMaterialType">
+          <properties xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties">
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>GpuResourceMemoryType</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>GpuResourceMemoryType</propertyTypeReference>
+                <value xmlns:d9p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
+                  i:type="d9p1:GpuResourceMemoryType">GPU_ONLY</value>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>MaterialTypePropertyTypes</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>MaterialTypePropertyTypes</propertyTypeReference>
+                <value
+                  i:type="DynamicClass">
+                  <propertyTypeNames>
+                    <d6p1:string>Resolution</d6p1:string>
+                    <d6p1:string>Texture</d6p1:string>
+                  </propertyTypeNames>
+                </value>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>MaterialTypePreprocessorDefines</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>MaterialTypePreprocessorDefines</propertyTypeReference>
+                <value
+                  i:type="d6p1:ArrayOfKeyValueOfstringint" />
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>Uniforms</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>Uniforms</propertyTypeReference>
+                <value xmlns:d9p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project.MaterialItems.Shaders"
+                  i:type="d9p1:ArrayOfShaderVariableInfo">
+                  <d9p1:ShaderVariableInfo>
+                    <d9p1:ArrayElementCount
+                      i:nil="true" />
+                    <d9p1:Category>UNIFORM</d9p1:Category>
+                    <d9p1:DataType>MAT4</d9p1:DataType>
+                    <d9p1:IsMorph>false</d9p1:IsMorph>
+                    <d9p1:Location>0</d9p1:Location>
+                    <d9p1:Name>kzProjectionCameraWorldMatrix</d9p1:Name>
+                    <d9p1:Precision>HIGH</d9p1:Precision>
+                    <d9p1:Semantic>MATRIX_PALETTE</d9p1:Semantic>
+                    <d9p1:SemanticIndex>0</d9p1:SemanticIndex>
+                    <d9p1:SourceType>FIXED_UNIFORM</d9p1:SourceType>
+                    <d9p1:UniformValueTransformType>PASS_THROUGH</d9p1:UniformValueTransformType>
+                  </d9p1:ShaderVariableInfo>
+                  <d9p1:ShaderVariableInfo>
+                    <d9p1:ArrayElementCount
+                      i:nil="true" />
+                    <d9p1:Category>UNIFORM</d9p1:Category>
+                    <d9p1:DataType>VEC2</d9p1:DataType>
+                    <d9p1:IsMorph>false</d9p1:IsMorph>
+                    <d9p1:Location>0</d9p1:Location>
+                    <d9p1:Name>Resolution</d9p1:Name>
+                    <d9p1:Precision>MEDIUM</d9p1:Precision>
+                    <d9p1:Semantic>CUSTOM</d9p1:Semantic>
+                    <d9p1:SemanticIndex>0</d9p1:SemanticIndex>
+                    <d9p1:SourceType>PROPERTY_TYPE</d9p1:SourceType>
+                    <d9p1:UniformValueTransformType>PASS_THROUGH</d9p1:UniformValueTransformType>
+                  </d9p1:ShaderVariableInfo>
+                  <d9p1:ShaderVariableInfo>
+                    <d9p1:ArrayElementCount
+                      i:nil="true" />
+                    <d9p1:Category>UNIFORM</d9p1:Category>
+                    <d9p1:DataType>FLOAT</d9p1:DataType>
+                    <d9p1:IsMorph>false</d9p1:IsMorph>
+                    <d9p1:Location>0</d9p1:Location>
+                    <d9p1:Name>kzTime</d9p1:Name>
+                    <d9p1:Precision>MEDIUM</d9p1:Precision>
+                    <d9p1:Semantic>CUSTOM</d9p1:Semantic>
+                    <d9p1:SemanticIndex>0</d9p1:SemanticIndex>
+                    <d9p1:SourceType>FIXED_UNIFORM</d9p1:SourceType>
+                    <d9p1:UniformValueTransformType>PASS_THROUGH</d9p1:UniformValueTransformType>
+                  </d9p1:ShaderVariableInfo>
+                  <d9p1:ShaderVariableInfo>
+                    <d9p1:ArrayElementCount
+                      i:nil="true" />
+                    <d9p1:Category>UNIFORM</d9p1:Category>
+                    <d9p1:DataType>SAMPLER2D</d9p1:DataType>
+                    <d9p1:IsMorph>false</d9p1:IsMorph>
+                    <d9p1:Location>0</d9p1:Location>
+                    <d9p1:Name>Texture</d9p1:Name>
+                    <d9p1:Precision>LOW</d9p1:Precision>
+                    <d9p1:Semantic>TEXTURE_COORDINATE</d9p1:Semantic>
+                    <d9p1:SemanticIndex>0</d9p1:SemanticIndex>
+                    <d9p1:SourceType>PROPERTY_TYPE</d9p1:SourceType>
+                    <d9p1:UniformValueTransformType>PASS_THROUGH</d9p1:UniformValueTransformType>
+                  </d9p1:ShaderVariableInfo>
+                </value>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>Attributes</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>Attributes</propertyTypeReference>
+                <value xmlns:d9p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project.MaterialItems.Shaders"
+                  i:type="d9p1:ArrayOfShaderVariableInfo">
+                  <d9p1:ShaderVariableInfo>
+                    <d9p1:ArrayElementCount
+                      i:nil="true" />
+                    <d9p1:Category>ATTRIBUTE</d9p1:Category>
+                    <d9p1:DataType>VEC2</d9p1:DataType>
+                    <d9p1:IsMorph>false</d9p1:IsMorph>
+                    <d9p1:Location>0</d9p1:Location>
+                    <d9p1:Name>kzTextureCoordinate0</d9p1:Name>
+                    <d9p1:Precision>HIGH</d9p1:Precision>
+                    <d9p1:Semantic>TEXTURE_COORDINATE</d9p1:Semantic>
+                    <d9p1:SemanticIndex>0</d9p1:SemanticIndex>
+                    <d9p1:SourceType>MANUAL</d9p1:SourceType>
+                    <d9p1:UniformValueTransformType>PASS_THROUGH</d9p1:UniformValueTransformType>
+                  </d9p1:ShaderVariableInfo>
+                  <d9p1:ShaderVariableInfo>
+                    <d9p1:ArrayElementCount
+                      i:nil="true" />
+                    <d9p1:Category>ATTRIBUTE</d9p1:Category>
+                    <d9p1:DataType>VEC3</d9p1:DataType>
+                    <d9p1:IsMorph>false</d9p1:IsMorph>
+                    <d9p1:Location>0</d9p1:Location>
+                    <d9p1:Name>kzPosition</d9p1:Name>
+                    <d9p1:Precision>HIGH</d9p1:Precision>
+                    <d9p1:Semantic>POSITION</d9p1:Semantic>
+                    <d9p1:SemanticIndex>0</d9p1:SemanticIndex>
+                    <d9p1:SourceType>MANUAL</d9p1:SourceType>
+                    <d9p1:UniformValueTransformType>PASS_THROUGH</d9p1:UniformValueTransformType>
+                  </d9p1:ShaderVariableInfo>
+                </value>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>Name</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>Name</propertyTypeReference>
+                <value xmlns:d9p1="http://www.w3.org/2001/XMLSchema"
+                  i:type="d9p1:string">CuteBend</value>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>CreationTime</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>CreationTime</propertyTypeReference>
+                <value xmlns:d9p1="http://www.w3.org/2001/XMLSchema"
+                  i:type="d9p1:dateTime">2021-04-18T08:20:10.7967738Z</value>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+          </properties>
+          <SerializedName>CuteBend</SerializedName>
+          <children>
+            <ProjectItem xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project.MaterialItems.Shaders"
+              i:type="d7p1:VertexShader">
+              <properties xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties">
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>ShaderSourceFile</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly
+                      i:nil="true" />
+                    <propertyTypeReference>ShaderSourceFile</propertyTypeReference>
+                    <value xmlns:d11p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
+                      i:type="d11p1:ProjectItemReference">
+                      <d11p1:ContentType>ABSOLUTE</d11p1:ContentType>
+                      <d11p1:IsResourceReference>false</d11p1:IsResourceReference>
+                      <d11p1:referredItemPath>
+                        <d11p1:pathString>KanziEffects/Resource Files/Shaders/CuteBend.vert.glsl/</d11p1:pathString>
+                      </d11p1:referredItemPath>
+                      <d11p1:textContent
+                        i:nil="true" />
+                    </value>
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>Name</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly>true</isReadOnly>
+                    <propertyTypeReference>Name</propertyTypeReference>
+                    <value xmlns:d11p1="http://www.w3.org/2001/XMLSchema"
+                      i:type="d11p1:string">Vertex Shader</value>
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>CreationTime</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly
+                      i:nil="true" />
+                    <propertyTypeReference>CreationTime</propertyTypeReference>
+                    <value xmlns:d11p1="http://www.w3.org/2001/XMLSchema"
+                      i:type="d11p1:dateTime">2021-04-18T08:20:10.7186715Z</value>
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              </properties>
+              <SerializedName>Vertex Shader</SerializedName>
+              <children />
+              <dataSource
+                i:nil="true" />
+              <isHidden>false</isHidden>
+              <isReadOnly>false</isReadOnly>
+            </ProjectItem>
+            <ProjectItem xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project.MaterialItems.Shaders"
+              i:type="d7p1:FragmentShader">
+              <properties xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties">
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>ShaderSourceFile</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly
+                      i:nil="true" />
+                    <propertyTypeReference>ShaderSourceFile</propertyTypeReference>
+                    <value xmlns:d11p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
+                      i:type="d11p1:ProjectItemReference">
+                      <d11p1:ContentType>ABSOLUTE</d11p1:ContentType>
+                      <d11p1:IsResourceReference>false</d11p1:IsResourceReference>
+                      <d11p1:referredItemPath>
+                        <d11p1:pathString>KanziEffects/Resource Files/Shaders/CuteBend.frag.glsl/</d11p1:pathString>
+                      </d11p1:referredItemPath>
+                      <d11p1:textContent
+                        i:nil="true" />
+                    </value>
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>Name</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly>true</isReadOnly>
+                    <propertyTypeReference>Name</propertyTypeReference>
+                    <value xmlns:d11p1="http://www.w3.org/2001/XMLSchema"
+                      i:type="d11p1:string">Fragment Shader</value>
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>CreationTime</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly
+                      i:nil="true" />
+                    <propertyTypeReference>CreationTime</propertyTypeReference>
+                    <value xmlns:d11p1="http://www.w3.org/2001/XMLSchema"
+                      i:type="d11p1:dateTime">2021-04-18T08:20:10.7854927Z</value>
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              </properties>
+              <SerializedName>Fragment Shader</SerializedName>
+              <children />
+              <dataSource
+                i:nil="true" />
+              <isHidden>false</isHidden>
+              <isReadOnly>false</isReadOnly>
+            </ProjectItem>
+          </children>
+          <dataSource
+            i:nil="true" />
+          <isHidden>false</isHidden>
+          <isReadOnly>false</isReadOnly>
+          <d3p1:binaryShaders xmlns:d6p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project.BinaryShaders">
+            <d6p1:items />
+            <d6p1:sourceHash>1691798448</d6p1:sourceHash>
+            <d6p1:timeStampTicks>0</d6p1:timeStampTicks>
+          </d3p1:binaryShaders>
+          <d3p1:materialClass xmlns:d6p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties"
+            i:nil="true" />
+          <d3p1:materialClasses xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+            i:nil="true" />
+          <d3p1:usesShaders>true</d3p1:usesShaders>
+        </ProjectItem>
+      </children>
       <dataSource
         i:nil="true" />
       <isHidden>false</isHidden>
@@ -2426,7 +2098,141 @@
         </d4p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
       </properties>
       <SerializedName>Materials</SerializedName>
-      <children />
+      <children>
+        <ProjectItem
+          i:type="d3p1:Material">
+          <properties xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties">
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>MaterialType</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>MaterialType</propertyTypeReference>
+                <value xmlns:d9p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
+                  i:type="d9p1:ProjectItemReference">
+                  <d9p1:ContentType>ABSOLUTE</d9p1:ContentType>
+                  <d9p1:IsResourceReference>false</d9p1:IsResourceReference>
+                  <d9p1:referredItemPath>
+                    <d9p1:pathString>KanziEffects/Material Types/CuteBend/</d9p1:pathString>
+                  </d9p1:referredItemPath>
+                  <d9p1:textContent
+                    i:nil="true" />
+                </value>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>ImportedFrom</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>ImportedFrom</propertyTypeReference>
+                <value xmlns:d9p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
+                  i:type="d9p1:ProjectItemReference">
+                  <d9p1:ContentType>ABSOLUTE</d9p1:ContentType>
+                  <d9p1:IsResourceReference>false</d9p1:IsResourceReference>
+                  <d9p1:referredItemPath
+                    i:nil="true" />
+                  <d9p1:textContent
+                    i:nil="true" />
+                </value>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>IDInImportSource</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>IDInImportSource</propertyTypeReference>
+                <value
+                  i:nil="true" />
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>OriginalNameInImportSource</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>OriginalNameInImportSource</propertyTypeReference>
+                <value
+                  i:nil="true" />
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>Name</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>Name</propertyTypeReference>
+                <value xmlns:d9p1="http://www.w3.org/2001/XMLSchema"
+                  i:type="d9p1:string">CuteBendMaterial</value>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>CreationTime</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>CreationTime</propertyTypeReference>
+                <value xmlns:d9p1="http://www.w3.org/2001/XMLSchema"
+                  i:type="d9p1:dateTime">2021-04-18T08:20:10.808739Z</value>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>Resolution</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>Resolution</propertyTypeReference>
+                <value xmlns:d9p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base.DataTypes"
+                  i:type="d9p1:Vector2D">
+                  <d9p1:X>500</d9p1:X>
+                  <d9p1:Y>500</d9p1:Y>
+                </value>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>Texture</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>Texture</propertyTypeReference>
+                <value xmlns:d9p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
+                  i:type="d9p1:ProjectItemReference">
+                  <d9p1:ContentType>ABSOLUTE</d9p1:ContentType>
+                  <d9p1:IsResourceReference>false</d9p1:IsResourceReference>
+                  <d9p1:referredItemPath>
+                    <d9p1:pathString>KanziEffects/Textures/Default Texture/</d9p1:pathString>
+                  </d9p1:referredItemPath>
+                  <d9p1:textContent
+                    i:nil="true" />
+                </value>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+          </properties>
+          <SerializedName>CuteBendMaterial</SerializedName>
+          <children />
+          <dataSource
+            i:nil="true" />
+          <isHidden>false</isHidden>
+          <isReadOnly>false</isReadOnly>
+        </ProjectItem>
+      </children>
       <dataSource
         i:nil="true" />
       <isHidden>false</isHidden>
@@ -2619,6 +2425,82 @@
           <isHidden>true</isHidden>
           <isReadOnly>true</isReadOnly>
           <d3p1:serializedPluginContentTypeName>Kanzi.ColorBrush</d3p1:serializedPluginContentTypeName>
+        </ProjectItem>
+        <ProjectItem
+          i:type="d3p1:Brush">
+          <properties xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties">
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>BrushType</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>BrushType</propertyTypeReference>
+                <value xmlns:d9p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
+                  i:type="d9p1:ProjectItemReference">
+                  <d9p1:ContentType>ABSOLUTE</d9p1:ContentType>
+                  <d9p1:IsResourceReference>false</d9p1:IsResourceReference>
+                  <d9p1:referredItemPath>
+                    <d9p1:pathString></d9p1:pathString>
+                  </d9p1:referredItemPath>
+                  <d9p1:textContent
+                    i:nil="true" />
+                </value>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>Name</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>Name</propertyTypeReference>
+                <value xmlns:d9p1="http://www.w3.org/2001/XMLSchema"
+                  i:type="d9p1:string">CuteBend Material Brush</value>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>CreationTime</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>CreationTime</propertyTypeReference>
+                <value xmlns:d9p1="http://www.w3.org/2001/XMLSchema"
+                  i:type="d9p1:dateTime">2021-04-18T08:29:30.6965693Z</value>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>MaterialBrush.Material</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>MaterialBrush.Material</propertyTypeReference>
+                <value xmlns:d9p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
+                  i:type="d9p1:ProjectItemReference">
+                  <d9p1:ContentType>ABSOLUTE</d9p1:ContentType>
+                  <d9p1:IsResourceReference>false</d9p1:IsResourceReference>
+                  <d9p1:referredItemPath>
+                    <d9p1:pathString>KanziEffects/Materials/CuteBendMaterial/</d9p1:pathString>
+                  </d9p1:referredItemPath>
+                  <d9p1:textContent
+                    i:nil="true" />
+                </value>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+          </properties>
+          <SerializedName>CuteBend Material Brush</SerializedName>
+          <children />
+          <dataSource
+            i:nil="true" />
+          <isHidden>false</isHidden>
+          <isReadOnly>false</isReadOnly>
+          <d3p1:serializedPluginContentTypeName>Kanzi.MaterialBrush</d3p1:serializedPluginContentTypeName>
         </ProjectItem>
       </children>
       <dataSource
@@ -2893,8 +2775,9 @@
                   i:type="d9p1:ProjectItemReference">
                   <d9p1:ContentType>ABSOLUTE</d9p1:ContentType>
                   <d9p1:IsResourceReference>false</d9p1:IsResourceReference>
-                  <d9p1:referredItemPath
-                    i:nil="true" />
+                  <d9p1:referredItemPath>
+                    <d9p1:pathString>KanziEffects/Object Sources/Root Object Source/</d9p1:pathString>
+                  </d9p1:referredItemPath>
                   <d9p1:textContent
                     i:nil="true" />
                 </value>
@@ -7313,6 +7196,342 @@
             i:nil="true" />
           <isHidden>true</isHidden>
           <isReadOnly>true</isReadOnly>
+        </ProjectItem>
+        <ProjectItem
+          i:type="d3p1:LayerPrefabTemplate">
+          <properties xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties">
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>ResourceCrossProjectVisibility</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>ResourceCrossProjectVisibility</propertyTypeReference>
+                <value xmlns:d9p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
+                  i:type="d9p1:CrossProjectVisibility">Inherit</value>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>ResourceKeepAliveBehavior</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>ResourceKeepAliveBehavior</propertyTypeReference>
+                <value xmlns:d9p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project.ResourceDictionaryItems"
+                  i:type="d9p1:ResourceKeepAliveBehavior">INHERIT</value>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>Name</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>Name</propertyTypeReference>
+                <value xmlns:d9p1="http://www.w3.org/2001/XMLSchema"
+                  i:type="d9p1:string">CuteBend</value>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+            <d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              <d6p1:Key>CreationTime</d6p1:Key>
+              <d6p1:Value>
+                <isHidden
+                  i:nil="true" />
+                <isReadOnly
+                  i:nil="true" />
+                <propertyTypeReference>CreationTime</propertyTypeReference>
+                <value xmlns:d9p1="http://www.w3.org/2001/XMLSchema"
+                  i:type="d9p1:dateTime">2021-04-18T08:47:13.3438631Z</value>
+              </d6p1:Value>
+            </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+          </properties>
+          <SerializedName>CuteBend</SerializedName>
+          <children>
+            <ProjectItem xmlns:d7p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project.LayerItems"
+              i:type="d7p1:EmptyLayer">
+              <properties xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties">
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>Tags</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly
+                      i:nil="true" />
+                    <propertyTypeReference>Tags</propertyTypeReference>
+                    <value xmlns:d11p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
+                      i:type="d11p1:ArrayOfProjectItemReference" />
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>EffectiveDataContext</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly
+                      i:nil="true" />
+                    <propertyTypeReference>EffectiveDataContext</propertyTypeReference>
+                    <value xmlns:d11p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project.DataSourceItems"
+                      i:type="d11p1:DataContext">
+                      <d11p1:dataObjectPath></d11p1:dataObjectPath>
+                      <d11p1:dataSourceReference xmlns:d12p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project">
+                        <d12p1:ContentType>ABSOLUTE</d12p1:ContentType>
+                        <d12p1:IsResourceReference>false</d12p1:IsResourceReference>
+                        <d12p1:referredItemPath
+                          i:nil="true" />
+                        <d12p1:textContent
+                          i:nil="true" />
+                      </d11p1:dataSourceReference>
+                    </value>
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>Name</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly
+                      i:nil="true" />
+                    <propertyTypeReference>Name</propertyTypeReference>
+                    <value xmlns:d11p1="http://www.w3.org/2001/XMLSchema"
+                      i:type="d11p1:string">CuteBend</value>
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>CreationTime</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly
+                      i:nil="true" />
+                    <propertyTypeReference>CreationTime</propertyTypeReference>
+                    <value xmlns:d11p1="http://www.w3.org/2001/XMLSchema"
+                      i:type="d11p1:dateTime">2021-04-18T08:29:26.174703Z</value>
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>Node2D.BackgroundBrush</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly
+                      i:nil="true" />
+                    <propertyTypeReference>Node2D.BackgroundBrush</propertyTypeReference>
+                    <value xmlns:d11p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
+                      i:type="d11p1:ProjectItemReference">
+                      <d11p1:ContentType>ABSOLUTE</d11p1:ContentType>
+                      <d11p1:IsResourceReference>false</d11p1:IsResourceReference>
+                      <d11p1:referredItemPath>
+                        <d11p1:pathString>KanziEffects/Brushes/CuteBend Material Brush/</d11p1:pathString>
+                      </d11p1:referredItemPath>
+                      <d11p1:textContent
+                        i:nil="true" />
+                    </value>
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>Resolution</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly
+                      i:nil="true" />
+                    <propertyTypeReference>Resolution</propertyTypeReference>
+                    <value xmlns:d11p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base.DataTypes"
+                      i:type="d11p1:Vector2D">
+                      <d11p1:X>0</d11p1:X>
+                      <d11p1:Y>0</d11p1:Y>
+                    </value>
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>MultiExpressionPropertyBindings</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly
+                      i:nil="true" />
+                    <propertyTypeReference>MultiExpressionPropertyBindings</propertyTypeReference>
+                    <value xmlns:d11p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project.Bindings"
+                      i:type="d11p1:ArrayOfMultiExpressionPropertyBinding">
+                      <d11p1:MultiExpressionPropertyBinding>
+                        <d11p1:bindingMode>Expression</d11p1:bindingMode>
+                        <d11p1:code>{0}</d11p1:code>
+                        <d11p1:isBindingEnabled>true</d11p1:isBindingEnabled>
+                        <d11p1:referenceInfosInCode
+                          i:nil="true" />
+                        <d11p1:referenceKeyValuesInCode>
+                          <d8p1:KeyValueOfstringBindingSourceReferenceoc5CXptS>
+                            <d8p1:Key>{0}</d8p1:Key>
+                            <d8p1:Value>
+                              <d11p1:ItemReference xmlns:d16p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project">
+                                <d16p1:ContentType>ABSOLUTE</d16p1:ContentType>
+                                <d16p1:IsResourceReference>false</d16p1:IsResourceReference>
+                                <d16p1:referredItemPath>
+                                  <d16p1:pathString>KanziEffects/Prefabs/CuteBend/CuteBend/</d16p1:pathString>
+                                </d16p1:referredItemPath>
+                                <d16p1:textContent
+                                  i:nil="true" />
+                              </d11p1:ItemReference>
+                              <d11p1:PropertyAttribute>WHOLE_PROPERTY</d11p1:PropertyAttribute>
+                              <d11p1:PropertyTypeReference xmlns:d16p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties.PropertyType">
+                                <d16p1:isExpression>false</d16p1:isExpression>
+                                <d16p1:propertyTypeName>Node.Width</d16p1:propertyTypeName>
+                              </d11p1:PropertyTypeReference>
+                            </d8p1:Value>
+                          </d8p1:KeyValueOfstringBindingSourceReferenceoc5CXptS>
+                        </d11p1:referenceKeyValuesInCode>
+                        <d11p1:targetPropertyAttribute>VECTOR_X</d11p1:targetPropertyAttribute>
+                        <d11p1:targetPropertyTypeReference xmlns:d13p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties.PropertyType">
+                          <d13p1:isExpression>false</d13p1:isExpression>
+                          <d13p1:propertyTypeName>Resolution</d13p1:propertyTypeName>
+                        </d11p1:targetPropertyTypeReference>
+                      </d11p1:MultiExpressionPropertyBinding>
+                      <d11p1:MultiExpressionPropertyBinding>
+                        <d11p1:bindingMode>Expression</d11p1:bindingMode>
+                        <d11p1:code>{0}</d11p1:code>
+                        <d11p1:isBindingEnabled>true</d11p1:isBindingEnabled>
+                        <d11p1:referenceInfosInCode
+                          i:nil="true" />
+                        <d11p1:referenceKeyValuesInCode>
+                          <d8p1:KeyValueOfstringBindingSourceReferenceoc5CXptS>
+                            <d8p1:Key>{0}</d8p1:Key>
+                            <d8p1:Value>
+                              <d11p1:ItemReference xmlns:d16p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project">
+                                <d16p1:ContentType>ABSOLUTE</d16p1:ContentType>
+                                <d16p1:IsResourceReference>false</d16p1:IsResourceReference>
+                                <d16p1:referredItemPath>
+                                  <d16p1:pathString>KanziEffects/Prefabs/CuteBend/CuteBend/</d16p1:pathString>
+                                </d16p1:referredItemPath>
+                                <d16p1:textContent
+                                  i:nil="true" />
+                              </d11p1:ItemReference>
+                              <d11p1:PropertyAttribute>WHOLE_PROPERTY</d11p1:PropertyAttribute>
+                              <d11p1:PropertyTypeReference xmlns:d16p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties.PropertyType">
+                                <d16p1:isExpression>false</d16p1:isExpression>
+                                <d16p1:propertyTypeName>Node.Height</d16p1:propertyTypeName>
+                              </d11p1:PropertyTypeReference>
+                            </d8p1:Value>
+                          </d8p1:KeyValueOfstringBindingSourceReferenceoc5CXptS>
+                        </d11p1:referenceKeyValuesInCode>
+                        <d11p1:targetPropertyAttribute>VECTOR_Y</d11p1:targetPropertyAttribute>
+                        <d11p1:targetPropertyTypeReference xmlns:d13p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties.PropertyType">
+                          <d13p1:isExpression>false</d13p1:isExpression>
+                          <d13p1:propertyTypeName>Resolution</d13p1:propertyTypeName>
+                        </d11p1:targetPropertyTypeReference>
+                      </d11p1:MultiExpressionPropertyBinding>
+                    </value>
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>Node.Width</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly
+                      i:nil="true" />
+                    <propertyTypeReference>Node.Width</propertyTypeReference>
+                    <value xmlns:d11p1="http://www.w3.org/2001/XMLSchema"
+                      i:type="d11p1:float">1175</value>
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>Node.Height</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly
+                      i:nil="true" />
+                    <propertyTypeReference>Node.Height</propertyTypeReference>
+                    <value xmlns:d11p1="http://www.w3.org/2001/XMLSchema"
+                      i:type="d11p1:float">783</value>
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>Texture</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly
+                      i:nil="true" />
+                    <propertyTypeReference>Texture</propertyTypeReference>
+                    <value xmlns:d11p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
+                      i:type="d11p1:ProjectItemReference">
+                      <d11p1:ContentType>ABSOLUTE</d11p1:ContentType>
+                      <d11p1:IsResourceReference>false</d11p1:IsResourceReference>
+                      <d11p1:referredItemPath>
+                        <d11p1:pathString>KanziEffects/Textures/DefaultBackground/</d11p1:pathString>
+                      </d11p1:referredItemPath>
+                      <d11p1:textContent
+                        i:nil="true" />
+                    </value>
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              </properties>
+              <SerializedName>CuteBend</SerializedName>
+              <children>
+                <ProjectItem xmlns:d9p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project.ResourceDictionaryItems"
+                  i:type="d9p1:ResourceDictionaryItem">
+                  <properties xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties">
+                    <d10p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                      <d10p1:Key>ResourceDictionaryLinkedDictionaries</d10p1:Key>
+                      <d10p1:Value>
+                        <isHidden
+                          i:nil="true" />
+                        <isReadOnly
+                          i:nil="true" />
+                        <propertyTypeReference>ResourceDictionaryLinkedDictionaries</propertyTypeReference>
+                        <value xmlns:d13p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Project"
+                          i:type="d13p1:ArrayOfProjectItemReference" />
+                      </d10p1:Value>
+                    </d10p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                    <d10p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                      <d10p1:Key>Name</d10p1:Key>
+                      <d10p1:Value>
+                        <isHidden
+                          i:nil="true" />
+                        <isReadOnly
+                          i:nil="true" />
+                        <propertyTypeReference>Name</propertyTypeReference>
+                        <value xmlns:d13p1="http://www.w3.org/2001/XMLSchema"
+                          i:type="d13p1:string">&lt;ResourceDictionaryInNode&gt;</value>
+                      </d10p1:Value>
+                    </d10p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                    <d10p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                      <d10p1:Key>CreationTime</d10p1:Key>
+                      <d10p1:Value>
+                        <isHidden
+                          i:nil="true" />
+                        <isReadOnly
+                          i:nil="true" />
+                        <propertyTypeReference>CreationTime</propertyTypeReference>
+                        <value xmlns:d13p1="http://www.w3.org/2001/XMLSchema"
+                          i:type="d13p1:dateTime">2021-04-18T08:47:13.402895Z</value>
+                      </d10p1:Value>
+                    </d10p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  </properties>
+                  <SerializedName>&lt;ResourceDictionaryInNode&gt;</SerializedName>
+                  <children />
+                  <dataSource
+                    i:nil="true" />
+                  <isHidden>true</isHidden>
+                  <isReadOnly>false</isReadOnly>
+                  <d9p1:entries />
+                </ProjectItem>
+              </children>
+              <dataSource
+                i:nil="true" />
+              <isHidden>false</isHidden>
+              <isReadOnly>false</isReadOnly>
+            </ProjectItem>
+          </children>
+          <dataSource
+            i:nil="true" />
+          <isHidden>false</isHidden>
+          <isReadOnly>false</isReadOnly>
         </ProjectItem>
       </children>
       <dataSource
@@ -31486,7 +31705,100 @@
             </d6p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
           </properties>
           <SerializedName>Shaders</SerializedName>
-          <children />
+          <children>
+            <ProjectItem
+              i:type="d3p1:ShaderSourceFile">
+              <properties xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties">
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>IsFileMissing</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly
+                      i:nil="true" />
+                    <propertyTypeReference>IsFileMissing</propertyTypeReference>
+                    <value xmlns:d11p1="http://www.w3.org/2001/XMLSchema"
+                      i:type="d11p1:boolean">false</value>
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>Name</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly>true</isReadOnly>
+                    <propertyTypeReference>Name</propertyTypeReference>
+                    <value xmlns:d11p1="http://www.w3.org/2001/XMLSchema"
+                      i:type="d11p1:string">CuteBend.vert.glsl</value>
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>CreationTime</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly
+                      i:nil="true" />
+                    <propertyTypeReference>CreationTime</propertyTypeReference>
+                    <value xmlns:d11p1="http://www.w3.org/2001/XMLSchema"
+                      i:type="d11p1:dateTime">2021-04-18T08:20:10.7256528Z</value>
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              </properties>
+              <SerializedName>CuteBend.vert.glsl</SerializedName>
+              <children />
+              <dataSource
+                i:nil="true" />
+              <isHidden>false</isHidden>
+              <isReadOnly>false</isReadOnly>
+            </ProjectItem>
+            <ProjectItem
+              i:type="d3p1:ShaderSourceFile">
+              <properties xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties">
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>IsFileMissing</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly
+                      i:nil="true" />
+                    <propertyTypeReference>IsFileMissing</propertyTypeReference>
+                    <value xmlns:d11p1="http://www.w3.org/2001/XMLSchema"
+                      i:type="d11p1:boolean">false</value>
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>Name</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly>true</isReadOnly>
+                    <propertyTypeReference>Name</propertyTypeReference>
+                    <value xmlns:d11p1="http://www.w3.org/2001/XMLSchema"
+                      i:type="d11p1:string">CuteBend.frag.glsl</value>
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                <d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+                  <d8p1:Key>CreationTime</d8p1:Key>
+                  <d8p1:Value>
+                    <isHidden
+                      i:nil="true" />
+                    <isReadOnly
+                      i:nil="true" />
+                    <propertyTypeReference>CreationTime</propertyTypeReference>
+                    <value xmlns:d11p1="http://www.w3.org/2001/XMLSchema"
+                      i:type="d11p1:dateTime">2021-04-18T08:20:10.7854927Z</value>
+                  </d8p1:Value>
+                </d8p1:KeyValueOfstringDynamicPropertyeuDbPpRS>
+              </properties>
+              <SerializedName>CuteBend.frag.glsl</SerializedName>
+              <children />
+              <dataSource
+                i:nil="true" />
+              <isHidden>false</isHidden>
+              <isReadOnly>false</isReadOnly>
+            </ProjectItem>
+          </children>
           <dataSource
             i:nil="true" />
           <isHidden>false</isHidden>
@@ -32697,24 +33009,24 @@
                     <d3p1:Key>FULL</d3p1:Key>
                     <d3p1:Value xmlns:d11p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.ApplicationCommon.Windows.WindowStates">
                       <d11p1:ExpandedNodePaths>
+                        <d3p1:string>/Screens</d3p1:string>
                         <d3p1:string>/Screens/Screen</d3p1:string>
                         <d3p1:string>/Screens/Screen/RootPage</d3p1:string>
-                        <d3p1:string>/Screens/Screen/RootPage/Viewport 2D</d3p1:string>
-                        <d3p1:string>/Screens/Screen/RootPage/Viewport 2D/Scene</d3p1:string>
                       </d11p1:ExpandedNodePaths>
                       <d11p1:RootSpecificDataItems>
                         <d3p1:KeyValueOfstringArrayOfstringty7Ep6D1>
                           <d3p1:Key>/KanziEffects/Screens</d3p1:Key>
                           <d3p1:Value>
+                            <d3p1:string>/Screens</d3p1:string>
                             <d3p1:string>/Screens/Screen</d3p1:string>
                             <d3p1:string>/Screens/Screen/RootPage</d3p1:string>
-                            <d3p1:string>/Screens/Screen/RootPage/Viewport 2D</d3p1:string>
-                            <d3p1:string>/Screens/Screen/RootPage/Viewport 2D/Scene</d3p1:string>
                           </d3p1:Value>
                         </d3p1:KeyValueOfstringArrayOfstringty7Ep6D1>
                       </d11p1:RootSpecificDataItems>
                       <d11p1:ScrollPosition>0</d11p1:ScrollPosition>
-                      <d11p1:SelectedNodePaths />
+                      <d11p1:SelectedNodePaths>
+                        <d3p1:string>/Screens/Screen/RootPage/Empty Node 2D (CuteBend)</d3p1:string>
+                      </d11p1:SelectedNodePaths>
                     </d3p1:Value>
                   </d3p1:KeyValueOfProjectExplorerViewModeProjectExplorerState.ProjectDependentData.ViewModeDataZii17Iwv>
                   <d3p1:KeyValueOfProjectExplorerViewModeProjectExplorerState.ProjectDependentData.ViewModeDataZii17Iwv>
@@ -32734,7 +33046,17 @@
               <d3p1:Value xmlns:d8p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base" xmlns:d8p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Presentation.Application.PropertyEditing"
                 i:type="d8p2:PropertyEditorState.ProjectDependentData">
                 <d8p2:ContentType>PROPERTIES</d8p2:ContentType>
-                <d8p2:ReferencesToEditedItems />
+                <d8p2:ReferencesToEditedItems>
+                  <ProjectItemReference>
+                    <ContentType>ABSOLUTE</ContentType>
+                    <IsResourceReference>false</IsResourceReference>
+                    <referredItemPath>
+                      <pathString>KanziEffects/Prefabs/CuteBend/CuteBend/</pathString>
+                    </referredItemPath>
+                    <textContent
+                      i:nil="true" />
+                  </ProjectItemReference>
+                </d8p2:ReferencesToEditedItems>
                 <d8p2:UseProjectItemSelectionAsSource>true</d8p2:UseProjectItemSelectionAsSource>
               </d3p1:Value>
             </d3p1:KeyValueOfstringSerializableObjectEu9UlzsU>
@@ -32755,15 +33077,31 @@
                   <d3p1:KeyValueOfProjectExplorerViewModeProjectExplorerState.ProjectDependentData.ViewModeDataZii17Iwv>
                     <d3p1:Key>RESOURCES</d3p1:Key>
                     <d3p1:Value xmlns:d11p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.ApplicationCommon.Windows.WindowStates">
-                      <d11p1:ExpandedNodePaths />
+                      <d11p1:ExpandedNodePaths>
+                        <d3p1:string>/Resources objects</d3p1:string>
+                        <d3p1:string>/Resources objects/Materials and Textures</d3p1:string>
+                        <d3p1:string>/Resources objects/Materials and Textures/Material Types</d3p1:string>
+                        <d3p1:string>/Resources objects/Materials and Textures/Material Types/CuteBend</d3p1:string>
+                        <d3p1:string>/Resources objects/Materials and Textures/Textures</d3p1:string>
+                        <d3p1:string>/Resources objects/Materials and Textures/Brushes</d3p1:string>
+                      </d11p1:ExpandedNodePaths>
                       <d11p1:RootSpecificDataItems>
                         <d3p1:KeyValueOfstringArrayOfstringty7Ep6D1>
                           <d3p1:Key>/KanziEffects/Resources objects</d3p1:Key>
-                          <d3p1:Value />
+                          <d3p1:Value>
+                            <d3p1:string>/Resources objects</d3p1:string>
+                            <d3p1:string>/Resources objects/Materials and Textures</d3p1:string>
+                            <d3p1:string>/Resources objects/Materials and Textures/Material Types</d3p1:string>
+                            <d3p1:string>/Resources objects/Materials and Textures/Material Types/CuteBend</d3p1:string>
+                            <d3p1:string>/Resources objects/Materials and Textures/Textures</d3p1:string>
+                            <d3p1:string>/Resources objects/Materials and Textures/Brushes</d3p1:string>
+                          </d3p1:Value>
                         </d3p1:KeyValueOfstringArrayOfstringty7Ep6D1>
                       </d11p1:RootSpecificDataItems>
                       <d11p1:ScrollPosition>0</d11p1:ScrollPosition>
-                      <d11p1:SelectedNodePaths />
+                      <d11p1:SelectedNodePaths>
+                        <d3p1:string>/Resources objects/Materials and Textures/Material Types/CuteBend/Fragment Shader</d3p1:string>
+                      </d11p1:SelectedNodePaths>
                     </d3p1:Value>
                   </d3p1:KeyValueOfProjectExplorerViewModeProjectExplorerState.ProjectDependentData.ViewModeDataZii17Iwv>
                 </d8p2:ViewModeDataItems>
@@ -32841,7 +33179,9 @@
                         </d3p1:KeyValueOfstringArrayOfstringty7Ep6D1>
                       </d11p1:RootSpecificDataItems>
                       <d11p1:ScrollPosition>0</d11p1:ScrollPosition>
-                      <d11p1:SelectedNodePaths />
+                      <d11p1:SelectedNodePaths>
+                        <d3p1:string>/Prefabs/CuteBend</d3p1:string>
+                      </d11p1:SelectedNodePaths>
                     </d3p1:Value>
                   </d3p1:KeyValueOfProjectExplorerViewModeProjectExplorerState.ProjectDependentData.ViewModeDataZii17Iwv>
                 </d8p2:ViewModeDataItems>
@@ -33074,7 +33414,60 @@
   <fileFormatVersion>62</fileFormatVersion>
   <isNewProject>false</isNewProject>
   <projectsPropertyTypeLibrary xmlns:d2p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties">
-    <d2p1:propertyTypes xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <d2p1:propertyTypes xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+      <d3p1:KeyValueOfstringDynamicPropertyTypeupo9qxsJ>
+        <d3p1:Key>Resolution</d3p1:Key>
+        <d3p1:Value xmlns:d5p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties.PropertyType" xmlns:d5p2="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Properties.PropertyType.PropertyTypes"
+          i:type="d5p2:Vector2DDynamicPropertyType">
+          <d5p1:AffectLayout>false</d5p1:AffectLayout>
+          <d5p1:AffectRender>true</d5p1:AffectRender>
+          <d5p1:Category>Material Properties</d5p1:Category>
+          <d5p1:EditorName>Rightware.Kanzi.Tool.Presentation.Application.PropertyValueEditors.Vector2dFieldEditor+PropertyGridEditor, KanziStudio, Version=3.6.10.170, Culture=neutral, PublicKeyToken=null:System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</d5p1:EditorName>
+          <d5p1:ImportSourcePropertyName
+            i:nil="true" />
+          <d5p1:ImportedFromReference
+            i:nil="true" />
+          <d5p1:IsReadOnly>false</d5p1:IsReadOnly>
+          <d5p1:ToolTip
+            i:nil="true" />
+          <d5p1:areValueChangeNotificationsDisabled>false</d5p1:areValueChangeNotificationsDisabled>
+          <d5p1:dataTypeEnum>VECTOR2D</d5p1:dataTypeEnum>
+          <d5p1:defaultValue xmlns:d6p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base.DataTypes"
+            i:type="d6p1:Vector2D">
+            <d6p1:X>0</d6p1:X>
+            <d6p1:Y>0</d6p1:Y>
+          </d5p1:defaultValue>
+          <d5p1:displayName>Resolution</d5p1:displayName>
+          <d5p1:fixedOrderPosition
+            i:nil="true" />
+          <d5p1:isExportedToEngine>true</d5p1:isExportedToEngine>
+          <d5p1:isHidden>false</d5p1:isHidden>
+          <d5p1:isIgnoredInComparison>false</d5p1:isIgnoredInComparison>
+          <d5p1:isInherited>false</d5p1:isInherited>
+          <d5p1:isKzbIndependent>false</d5p1:isKzbIndependent>
+          <d5p1:isUserAddable
+            i:nil="true" />
+          <d5p1:name>Resolution</d5p1:name>
+          <d5p1:targetHostType>
+            <d2p1:TargetTypeNames>
+              <d3p1:string>System.Object</d3p1:string>
+            </d2p1:TargetTypeNames>
+          </d5p1:targetHostType>
+          <d5p2:lowerBound xmlns:d6p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base.DataTypes">
+            <d6p1:X>0</d6p1:X>
+            <d6p1:Y>0</d6p1:Y>
+          </d5p2:lowerBound>
+          <d5p2:step xmlns:d6p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base.DataTypes">
+            <d6p1:X>1</d6p1:X>
+            <d6p1:Y>1</d6p1:Y>
+          </d5p2:step>
+          <d5p2:upperBound xmlns:d6p1="http://schemas.datacontract.org/2004/07/Rightware.Kanzi.Tool.Logic.Base.DataTypes">
+            <d6p1:X>2000</d6p1:X>
+            <d6p1:Y>2000</d6p1:Y>
+          </d5p2:upperBound>
+        </d3p1:Value>
+      </d3p1:KeyValueOfstringDynamicPropertyTypeupo9qxsJ>
+    </d2p1:propertyTypes>
   </projectsPropertyTypeLibrary>
   <version>3.6.10.170</version>
 </Project>
